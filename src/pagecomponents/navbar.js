@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import {
   Collapse,
   Navbar,
@@ -7,13 +8,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
 } from "reactstrap";
-import "./navbar.css";
 
 export default function Example(args) {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +17,7 @@ export default function Example(args) {
 
   return (
     <div className="container">
-      <Navbar {...args}>
+      <Navbar className="navbar" {...args}>
         <NavbarBrand href="./homepage.js">Alana R. Vazquez</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -33,7 +28,6 @@ export default function Example(args) {
             <NavItem>
               <NavLink href="./porfolio.js">Portfolio</NavLink>
             </NavItem>
-
             <NavItem>
               <NavLink href="./contact.js">Contact Me</NavLink>
             </NavItem>

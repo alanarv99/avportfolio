@@ -1,0 +1,20 @@
+.Header {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px dotted black;
+}
+
+.font-loader {
+  font-family: "Pixelify Sans";
+  font-size: 57px;
+  padding: 0px;
+}
+
+.howdy {
+  text-align: center;
+  padding: 25px;
+  margin: 20px;
+  border: 2px dotted black;
+  border-radius: 5px;
+}
