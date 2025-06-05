@@ -34,7 +34,7 @@ export default function Homepage() {
           resources and excited to build fun and cool new projects!
         </h3>
       </div>
-      <a href="">More about me </a>
+      <a>More about me </a>
       <br />
       <a>Check out my other projects </a>
       <br />
