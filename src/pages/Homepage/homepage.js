@@ -3,7 +3,11 @@ import NavigationBar from "../../pagecomponents/navigationbar";
 import Footer from "../../pagecomponents/footer";
 import { Container } from "react-bootstrap";
 import WebFont from "webfontloader";
+import { Link } from "react-router";
 import "../Homepage/homepage.css";
+import About from "../About/about";
+import Project from "../Portfolio/portfolio";
+import Contact from "../Contact/contact";
 
 export default function Homepage() {
   useEffect(() => {
@@ -34,12 +38,17 @@ export default function Homepage() {
           resources and excited to build fun and cool new projects!
         </h3>
       </div>
-      <a>More about me </a>
-      <br />
-      <a>Check out my other projects </a>
-      <br />
-      <a>Lets chat </a>
-
+      <div className="almostFooter">
+        <Link className="PageLink" to="./About">
+          More About Me
+        </Link>
+        <Link className="PageLink" to="./Project">
+          Check Out My Other Projects
+        </Link>
+        <Link className="PageLink" to="./Contact">
+          Lets Chat
+        </Link>
+      </div>
       <Footer />
     </div>
   );

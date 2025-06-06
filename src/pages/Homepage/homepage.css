@@ -18,3 +18,19 @@
   border: 2px dotted black;
   border-radius: 5px;
 }
+
+.almostFooter {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.PageLink {
+  margin: 10px;
+  text-decoration: none;
+  color: #5296a5;
+}
+
+.PageLink:hover {
+  color: #2f555e;
+}
