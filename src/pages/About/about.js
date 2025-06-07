@@ -76,10 +76,7 @@ export default function About() {
         <hr />
         <p>
           {" "}
-          Check out my{" "}
-          <a href={AVResume} target="_blank">
-            Resume
-          </a>
+          Check out my <a href={AVResume}>Resume</a>
         </p>
         <hr />
 
@@ -158,7 +155,7 @@ export default function About() {
 
         <p>
           Learn more about {""}
-          <a href="https://shecodes.io" target="_blank">
+          <a href="https://shecodes.io">
             SheCodes Online Coding Workshops
           </a>{" "}
         </p>
