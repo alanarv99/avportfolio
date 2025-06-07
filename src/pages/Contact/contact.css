@@ -1,0 +1,50 @@
+.FormContainer {
+  margin: 10px 55px 30px;
+  padding: 17px;
+  border: 2px dotted black;
+  border-radius: 3px;
+}
+
+.ReachOut {
+  text-align: center;
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.Label {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Input {
+  margin-bottom: 10px;
+}
+
+.Socials {
+  text-align: center;
+}
+
+.SocialImage {
+  height: 75px;
+  width: 75px;
+}
+
+.figure {
+  margin: 20px 75px 30px;
+}
+
+.caption {
+  padding-top: 7px;
+  font-weight: 500;
+}
+
+.caption:hover {
+  font-weight: 400;
+}
+
+@media (max-width: 900px) {
+  .figure {
+    margin: 5px 30px 20px;
+  }
+}

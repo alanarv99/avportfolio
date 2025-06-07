@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <Container fluid className="footerContainer">
       <footer>
-        <h6>
+        <h6 className="OpenSourced">
           This SPA is <a href="https;//google.com">open-sourced</a> coded by me,
           Alana Vazquez!
         </h6>

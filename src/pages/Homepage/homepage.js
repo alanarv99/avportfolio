@@ -5,9 +5,6 @@ import { Container } from "react-bootstrap";
 import WebFont from "webfontloader";
 import { Link } from "react-router";
 import "../Homepage/homepage.css";
-import About from "../About/about";
-import Project from "../Portfolio/portfolio";
-import Contact from "../Contact/contact";
 
 export default function Homepage() {
   useEffect(() => {
@@ -42,7 +39,7 @@ export default function Homepage() {
         <Link className="PageLink" to="./About">
           More About Me
         </Link>
-        <Link className="PageLink" to="./Project">
+        <Link className="PageLink" to="./Portfolio">
           Check Out My Other Projects
         </Link>
         <Link className="PageLink" to="./Contact">
