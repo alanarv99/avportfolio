@@ -46,7 +46,7 @@ export default function Contact() {
       </Form>
       <hr />
       <div className="Socials">
-        <Figure className="figure">
+        <Figure className="Figure">
           <a href="https://github.com/alanarv99">
             <Image
               fluid
@@ -54,12 +54,12 @@ export default function Contact() {
               alt="Github Logo"
               className="SocialImage"
             />
-            <FigureCaption className="caption">
+            <FigureCaption className="Caption">
               Check Out My Github
             </FigureCaption>
           </a>
         </Figure>
-        <Figure className="figure">
+        <Figure className="Figure">
           <a href="https://github.com/alanarv99">
             <Image
               fluid
@@ -67,7 +67,7 @@ export default function Contact() {
               alt="LinkedIn Logo"
               className="SocialImage"
             />
-            <FigureCaption className="caption">
+            <FigureCaption className="Caption">
               Check out my LinkedIn
             </FigureCaption>
           </a>

@@ -31,8 +31,8 @@ export default function About() {
   return (
     <div className="About">
       <NavigationBar />
-      <Container className="aboutBody">
-        <Card className="card">
+      <Container className="AboutBody">
+        <Card className="Card">
           <CardHeader className="CardHeader">About My Life</CardHeader>
           <CardBody>
             <Carousel>
@@ -80,7 +80,7 @@ export default function About() {
         </p>
         <hr />
 
-        <Card className="card">
+        <Card className="Card">
           <CardHeader className="CardHeader">
             My Coding Certifications
           </CardHeader>

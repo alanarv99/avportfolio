@@ -18,13 +18,13 @@ export default function Homepage() {
     <div className="Homepage">
       <NavigationBar />
       <Container className="Header">
-        <h4 className="hello">Hello, my name is</h4>
+        <h4 className="Hello">Hello, my name is</h4>
         <h1 className="font-loader">Alana R. Vazquez</h1>
         <h4>Junior Front-End Developer</h4>
         <h4>based in New Jersey, USA</h4>
       </Container>
       <div>
-        <h3 className="howdy">
+        <h3 className="Howdy">
           Welcome to my self built website, please take your time looking around
           and getting aquainted with me. My hope is that I can utilize my
           current skills in HTML, CSS, Python, Javascript, and React.js while
@@ -35,7 +35,7 @@ export default function Homepage() {
           resources and excited to build fun and cool new projects!
         </h3>
       </div>
-      <div className="almostFooter">
+      <div className="AlmostFooter">
         <Link className="PageLink" to="./About">
           More About Me
         </Link>

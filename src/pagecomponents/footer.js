@@ -15,13 +15,13 @@ export default function Footer() {
     );
   }
   return (
-    <Container fluid className="footerContainer">
+    <Container fluid className="FooterContainer">
       <footer>
         <h6 className="OpenSourced">
           This SPA is <a href="https;//google.com">open-sourced</a> coded by me,
           Alana Vazquez!
         </h6>
-        <Container className="socials">
+        <Container className="Socials">
           <Row>
             <Col>
               <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">

@@ -16,8 +16,8 @@ export default function Example(args) {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="container">
-      <Navbar className="navbar" {...args}>
+    <div className="Container">
+      <Navbar className="Navbar" {...args}>
         <NavbarBrand href="./homepage.js">Alana R. Vazquez</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

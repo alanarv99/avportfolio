@@ -30,21 +30,21 @@
   width: 75px;
 }
 
-.figure {
+.Figure {
   margin: 20px 75px 30px;
 }
 
-.caption {
+.Caption {
   padding-top: 7px;
   font-weight: 500;
 }
 
-.caption:hover {
+.Caption:hover {
   font-weight: 400;
 }
 
 @media (max-width: 900px) {
-  .figure {
+  .Figure {
     margin: 5px 30px 20px;
   }
 }

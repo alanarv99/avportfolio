@@ -1,13 +1,9 @@
-.header {
-  font-size: 50px;
-}
-
-.aboutBody {
+.AboutBody {
   max-width: 80%;
   text-align: center;
 }
 
-.card {
+.Card {
   margin-top: 20px;
   margin-bottom: 20px;
 }
