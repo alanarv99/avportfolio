@@ -1,0 +1,21 @@
+.Port {
+  text-align: center;
+}
+.Row {
+  margin: 10px 25px 35px;
+}
+.CardTitle {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.CardButton {
+  display: block;
+  margin: 0 auto;
+  background-color: #5296a5;
+}
+
+.CardButton:hover {
+  background-color: #305861;
+}
