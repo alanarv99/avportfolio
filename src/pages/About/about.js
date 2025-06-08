@@ -20,7 +20,7 @@ import AdvancedResponsive from "../../Images/AdvancedResponsiveWebDevelopment.pn
 import AdvancedWeb from "../../Images/AdvancedWebDevelopment.png";
 import IntroAI from "../../Images/IntrotoAI.png";
 import IntroCoding from "../../Images/IntrotoCoding.png";
-import IntroPython from "../../Images/IntrotoCoding.png";
+import IntroPython from "../../Images/IntrotoPythonDevelopment.png";
 import IntroWeb from "../../Images/IntrotoWebDevelopment.png";
 import ReactDev from "../../Images/ReactDevelopment.png";
 import ResponsiveWeb from "../../Images/ResponsiveWebDevelopment.png";
@@ -116,6 +116,13 @@ export default function About() {
               </Carousel.Item>
               <Carousel.Item>
                 <Image fluid src={IntroAI} alt="Intro to AI Certificate" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image
+                  fluid
+                  src={IntroCoding}
+                  alt="Intro to Coding Certificate"
+                />
               </Carousel.Item>
               <Carousel.Item>
                 <Image
